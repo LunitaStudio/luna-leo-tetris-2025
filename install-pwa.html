@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar Luna&Leo Tetris 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #02050f 0%, #1b2735 100%);
+            color: #e9f4ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: rgba(20, 20, 30, 0.9);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 217, 255, 0.3);
+            border: 2px solid rgba(0, 217, 255, 0.5);
+        }
+        
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #00e5ff, #ff6b9d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: #9fc7ff;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .install-btn {
+            background: linear-gradient(45deg, #00e5ff, #0099cc);
+            color: #02050f;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 229, 255, 0.3);
+        }
+        
+        .install-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 229, 255, 0.4);
+        }
+        
+        .install-btn:disabled {
+            background: #666;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .features {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .feature {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        
+        .feature-icon {
+            font-size: 1.5em;
+            margin-right: 15px;
+            color: #00e5ff;
+        }
+        
+        .instructions {
+            background: rgba(0, 217, 255, 0.1);
+            border: 1px solid rgba(0, 217, 255, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            color: #00e5ff;
+            margin-bottom: 15px;
+        }
+        
+        .instructions ol {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+        
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        
+        .status.ready {
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid rgba(0, 255, 0, 0.3);
+            color: #90ff90;
+        }
+        
+        .status.not-ready {
+            background: rgba(255, 165, 0, 0.1);
+            border: 1px solid rgba(255, 165, 0, 0.3);
+            color: #ffb366;
+        }
+        
+        .manual-link {
+            color: #00e5ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .manual-link:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: #9fc7ff;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🌙 Luna&Leo Tetris 2025</div>
+        <div class="subtitle">Instala el juego como una app nativa en tu dispositivo</div>
+        
+        <div id="status" class="status not-ready">
+            Verificando compatibilidad...
+        </div>
+        
+        <button id="installBtn" class="install-btn" disabled>
+            Instalar Luna&Leo Tetris 2025
+        </button>
+        
+        <div class="features">
+            <div class="feature">
+                <span class="feature-icon">🎮</span>
+                <span>Funciona completamente offline</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🎨</span>
+                <span>6 paletas de colores únicas</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🎵</span>
+                <span>11 pistas musicales + efectos de sonido</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🏆</span>
+                <span>Sistema de puntuación y ranking</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📱</span>
+                <span>Optimizado para móviles</span>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>📱 Instalación Manual (si el botón no funciona)</h3>
+            <ol>
+                <li>Abre el juego en Chrome/Edge en tu Android</li>
+                <li>Toca el menú (⋮) en la esquina superior derecha</li>
+                <li>Selecciona "Instalar app" o "Añadir a pantalla de inicio"</li>
+                <li>Confirma la instalación</li>
+                <li>¡Listo! El juego aparecerá como una app nativa</li>
+            </ol>
+        </div>
+        
+        <div class="footer">
+            <a href="index_solo_html-8-11.html" class="manual-link">← Volver al juego</a>
+        </div>
+    </div>
+
+    <script>
+        let deferredPrompt;
+        const installBtn = document.getElementById('installBtn');
+        const status = document.getElementById('status');
+        
+        // Verificar si el navegador soporta PWA
+        function checkPWASupport() {
+            const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+            
+            if (isStandalone) {
+                status.textContent = '✅ El juego ya está instalado como app';
+                status.className = 'status ready';
+                installBtn.style.display = 'none';
+                return;
+            }
+            
+            if (!('serviceWorker' in navigator)) {
+                status.textContent = '⚠️ Tu navegador no soporta PWA completamente';
+                status.className = 'status not-ready';
+                return;
+            }
+            
+            if (!('BeforeInstallPromptEvent' in window)) {
+                status.textContent = 'ℹ️ Usa la instalación manual (ver instrucciones abajo)';
+                status.className = 'status not-ready';
+                return;
+            }
+            
+            status.textContent = '✅ Listo para instalar';
+            status.className = 'status ready';
+            installBtn.disabled = false;
+        }
+        
+        // Escuchar el evento beforeinstallprompt
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            checkPWASupport();
+        });
+        
+        // Manejar la instalación
+        installBtn.addEventListener('click', async () => {
+            if (!deferredPrompt) {
+                status.textContent = '⚠️ Instalación no disponible. Usa el método manual.';
+                status.className = 'status not-ready';
+                return;
+            }
+            
+            installBtn.disabled = true;
+            installBtn.textContent = 'Instalando...';
+            
+            try {
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                
+                if (outcome === 'accepted') {
+                    status.textContent = '✅ ¡Instalación exitosa! El juego aparecerá en tu pantalla de inicio.';
+                    status.className = 'status ready';
+                    installBtn.style.display = 'none';
+                } else {
+                    status.textContent = 'ℹ️ Instalación cancelada. Puedes intentar más tarde.';
+                    status.className = 'status not-ready';
+                    installBtn.disabled = false;
+                    installBtn.textContent = 'Instalar Luna&Leo Tetris 2025';
+                }
+                
+                deferredPrompt = null;
+            } catch (error) {
+                console.error('Error durante la instalación:', error);
+                status.textContent = '❌ Error durante la instalación. Usa el método manual.';
+                status.className = 'status not-ready';
+                installBtn.disabled = false;
+                installBtn.textContent = 'Instalar Luna&Leo Tetris 2025';
+            }
+        });
+        
+        // Verificar soporte al cargar
+        window.addEventListener('load', checkPWASupport);
+        
+        // Verificar cuando se instala
+        window.addEventListener('appinstalled', () => {
+            status.textContent = '✅ ¡App instalada exitosamente!';
+            status.className = 'status ready';
+            installBtn.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
