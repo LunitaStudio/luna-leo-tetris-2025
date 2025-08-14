@@ -2,7 +2,7 @@
   "name": "Luna&Leo Tetris 2025",
   "short_name": "Tetris 2025",
   "description": "Tetris clásico y desafío con estética neon-arcade. Juego completo offline.",
-  "start_url": "/index_solo_html-8-11.html",
+  "start_url": "/index.html",
   "display": "fullscreen",
   "orientation": "portrait",
   "theme_color": "#02050f",

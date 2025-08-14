@@ -1,7 +1,7 @@
 const CACHE_NAME = 'luna-leo-tetris-v1.0';
 const urlsToCache = [
   '/',
-  '/index_solo_html-8-11.html',
+  '/index.html',
   '/manifest.json',
   '/icons/icon-72x72.png',
   '/icons/icon-96x96.png',
@@ -121,7 +121,7 @@ self.addEventListener('fetch', event => {
             
             // Return offline page for navigation requests
             if (event.request.destination === 'document') {
-              return caches.match('/index_solo_html-8-11.html');
+              return caches.match('/index.html');
             }
             
             return new Response('Offline', {

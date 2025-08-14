@@ -111,7 +111,7 @@ Un Tetris clásico y moderno con estética neon-arcade, completamente funcional 
 
 ```
 luna-leo-tetris-2025/
-├── index_solo_html-8-11.html    # Juego principal
+├── index.html                    # Juego principal
 ├── manifest.json                 # Configuración PWA
 ├── sw.js                         # Service Worker
 ├── generate-icons.html           # Generador de íconos
